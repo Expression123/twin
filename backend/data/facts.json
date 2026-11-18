@@ -1,0 +1,21 @@
+{
+    "full_name": "Gbadegesin Ibrahim",
+    "name": "Expression",
+    "current_role": "AI Engineer",
+    "location": "Abuja",
+    "email": "ibraimgbade123@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/ibrahim-gbadegesin-0aa4842a4/",
+    "specialties": [
+      "Data Science",
+      "ML Engineer",
+      "AI ENgineer"
+    ],
+    "years_experience": 2,
+    "education": [
+      {
+        "degree": "Electrical Engineering",
+        "institution": "FUT Minna",
+        "year": "2025"
+      }
+    ]
+  }
