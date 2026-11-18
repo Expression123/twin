@@ -28,7 +28,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      
+      - name: Get GitHub IDs
+        run: |
+          echo "Owner ID: $GITHUB_REPOSITORY_OWNER_ID"
+          echo "Repository ID: $GITHUB_REPOSITORY_ID"
 
+      
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
