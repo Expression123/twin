@@ -72,6 +72,9 @@ cd terraform
 
 
 
+
+
+
 echo "🔥 Running terraform destroy..."
 
 # Run terraform destroy with auto-approve
