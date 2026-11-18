@@ -64,6 +64,14 @@ else
     echo "  Memory bucket not found or already empty"
 fi
 
+# Build Lambda package required by Terraform
+echo "📦 Building Lambda package..."
+cd ..
+(cd backend && uv run deploy.py)
+cd terraform
+
+
+
 echo "🔥 Running terraform destroy..."
 
 # Run terraform destroy with auto-approve
